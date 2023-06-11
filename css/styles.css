@@ -11030,7 +11030,6 @@ section.resume-section .resume-section-content {
 @media(max-width: 992px){
   
   .social-icon span {
-    /* transition: .4s; */
     opacity: 1;
     display: block;
     visibility: visible;
@@ -11042,7 +11041,6 @@ section.resume-section .resume-section-content {
 
   .social-icons .social-icon {
     display: inline-flex;
-    /* align-items: center; */
     justify-content: flex-start;
     height: 3.5rem;
     width: 120px;
@@ -11052,22 +11050,10 @@ section.resume-section .resume-section-content {
     border-radius: 100px;
     font-size: 1.5rem;
     margin: .5rem 1rem .5rem 0rem;
-    /* transition: .5s; */
-    /* transition-property: all; */
   }
-  /* .social-icon{
-    width: fit-content;
-  } */
-  .social-icon.email {
 
+  .social-icon.email {
     width: 260px;
-  }
-  
-  .social-icon.phone {
-    width: 162px;
-  }
-  .social-icon.angellist {
-    width: 130px;
   }
 }
 
