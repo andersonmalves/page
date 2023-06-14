@@ -77,6 +77,7 @@
   --bs-link-hover-color: #974a2d;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
+  --bs-secondary: #555972;
 }
 
 *,
@@ -10964,7 +10965,7 @@ p.lead {
 
 .social-icon:hover {
   color: #fff;
-  background-color: #bd5d38;
+  background-color: #555972 !important;
   padding: 0px 20px;
   width: 120px;
   justify-content: flex-start;
@@ -11026,6 +11027,10 @@ section.resume-section .resume-section-content {
 }
 
 /* */
+
+.secondary-color {
+  color: #555972 !important;
+}
 
 @media(max-width: 992px){
   
